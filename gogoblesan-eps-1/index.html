@@ -42,7 +42,7 @@
           <div class="mb-2">
             <div
               class="card w-96 bg-primary text-primary-content"
-              id="targetObject"
+              id="card"
             >
               <div class="card-body">
                 <h2 class="card-title">Latar Dinamis</h2>
@@ -61,14 +61,20 @@
               type="text"
               placeholder="masukan disini"
               class="input input-bordered w-full max-w-xs mb-4"
-              id="inputHexa"
+              id="input"
             />
           </div>
           <button
             class="inline-block cursor-pointer rounded-md bg-primary px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-white hover:text-primary mx-auto w-full"
-            onClick="ubahLatar()"
+            id="submit"
           >
             Ubah Warna Latar Objek
+          </button>
+          <button
+            class="inline-block cursor-pointer rounded-md mt-2 bg-primary px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-white hover:text-primary mx-auto w-full"
+            id="random"
+          >
+            Ubah Random
           </button>
         </div>
       </div>
